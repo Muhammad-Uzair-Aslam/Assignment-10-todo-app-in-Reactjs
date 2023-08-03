@@ -1,0 +1,118 @@
+.main-body{
+    background-color: rgb(82, 82, 250);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.main-Card{
+    width: 50%;
+}
+.inputfield{
+    background-color: rgb(98, 98, 253);
+    padding: 1rem;
+    /* width: 100%; */
+}
+.inputfield input{
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 70%;
+    border: none;
+    outline: none;
+   
+}
+.inputfield button{
+    padding: 1rem;
+  color: rgb(122, 122, 251);
+  font-weight: bold;
+  cursor: pointer;
+  /* max-width: 30%; */
+    
+}
+.card1{
+    background-color: white;
+   padding: 17px;
+   max-width: 100%;
+   margin-bottom: .5rem;
+}
+
+.card-1{
+    background-color: rgb(114, 114, 250);
+    padding: 1rem;
+    /* width: 100%; */
+    
+}
+
+.task-list{
+    display: flex;
+    align-items: center;
+    
+}
+.task-detail{
+    width: 70%;
+}
+.task-detail p{
+    background-color: white;
+    /* width: 100%; */
+    padding: .8rem;
+    /* padding-right: 10rem; */
+}
+.btn{
+    width: 30%;
+}
+.btn button{
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(122, 122, 251);
+    font-weight: bold;
+    margin: .1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* max-width: 10%; */
+}
+
+
+@media (max-width: 704px){
+    .inputfield button{
+        display: block;
+        width: 100%;
+    }
+   
+    .inputfield input{
+        
+      width: 90%;
+      margin-bottom: .7rem;
+    
+    }
+    /* .main-body{
+        max-width: 100%;
+    } */
+    .main-Card{
+        width: 100%;
+        margin: .6rem;
+    }
+    .task-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .task-detail{
+        width: 100%;
+    }
+
+   
+
+    .btn {
+        /* margin-left: 15rem; */
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+   
+}
